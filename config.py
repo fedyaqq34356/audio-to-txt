@@ -1,5 +1,5 @@
-MODEL_SIZE = "small"
-COMPUTE_TYPE = "int8"
+MODEL_SIZE = "large"
+COMPUTE_TYPE = "float32"
 DEVICE = "cpu"
 INPUT_FILE = "audio.mp3"
 OUTPUT_FILE = "audio.txt"
