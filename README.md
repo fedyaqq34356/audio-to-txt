@@ -83,6 +83,8 @@ The `example/` directory contains sample files showing transcription quality. Co
 
 Transcription quality depends on audio clarity, model size, and proper language settings. Larger models provide better accuracy but require more processing time.
 
+The system is not perfect but close. There are minor errors in transcription, but they are not significant. If you know the context, you can easily understand the output.
+
 ## License
 
 GNU General Public License v3.0
