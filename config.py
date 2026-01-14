@@ -1,7 +1,10 @@
-MODEL_SIZE = "large"
+MODEL_SIZE = "medium"
 COMPUTE_TYPE = "float32"
 DEVICE = "cpu"
 INPUT_FILE = "audio.mp3"
 OUTPUT_FILE = "audio.txt"
 LOG_FILE = "transcription.log"
 CHUNK_SIZE = 500
+TEMP_WAV = "temp_audio.wav"
+LANGUAGE = None
+SUPPORTED_FORMATS = ['.mp3', '.mp4', '.avi', '.mkv', '.mov', '.wmv', '.flv', '.webm', '.m4a', '.wav', '.aac', '.ogg', '.flac']
